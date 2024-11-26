@@ -2,14 +2,14 @@
   "name": "kostockaplugin",
   "displayName": "KostockaPlugin",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.95.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": ["onCommand:kostockaplugin.runAllTasks"],
+  "activationEvents": [],
   "main": "./out/extension.js",
   "scripts": {
     "vscode:prepublish": "npm run compile",
@@ -59,7 +59,7 @@
         },
         "kostockaplugin.keybinding": {
           "type": "string",
-          "default": "ctrl+alt+r",
+          "default": "cmd+alt+r",
           "description": "Сочетание клавиш для команды 'Запустить все задачи'."
         }
       }
